@@ -13,12 +13,14 @@
 <h1> Piano virtual</h1>
 <p>Toque nas teclas para tocar uma melodia e quem sabe descubre uma música secreta.</p>
   
-<div class= "teclado">
+
+  
+<div class= "teclado" >
      <div class="oitavo" ot1>
    
  
-
-     <div class="branca-key"  id="C" onclick="somSi();"> </div>
+     
+     <div class="branca-key"   id="C" onclick="somSi();"> </div>
       <div class="preta-key" cs  id="do"   onclick="somDo();"></div>
       <div class="branca-key" id="d"onclick="somLa();" ></div>
       <div class="preta-key" ds id="re"onclick="somRe();"></div>
@@ -52,14 +54,15 @@
    </div>  
    </div>
  
- <script>
-document.getElementById("C").addEventListener("keypress", myFunction);
-
-function myFunction() {
-  document.getElementById("C");
+   <script>
+function funcao1()
+{
+alert("Eu sou um alert!");
 }
+
 </script>
 
+<input type="button" onclick="funcao1()" value="Exibir Alert" />
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
 </script>
