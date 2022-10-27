@@ -53,16 +53,22 @@
        <div class="branca-key "id="b" onclick="somReagudo();"></div>
    </div>  
    </div>
- 
-   <script>
-function funcao1()
-{
-alert("Eu sou um alert!");
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/2lMMbSPH58s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  alert("Hello! I am an alert box!");
+
 }
 
 </script>
+ 
+  
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
+</video>
 
-<input type="button" onclick="funcao1()" value="Exibir Alert" />
+
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
 </script>
