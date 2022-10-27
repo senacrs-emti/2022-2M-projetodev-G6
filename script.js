@@ -1,5 +1,4 @@
 
-
 const teclas = document.querySelectorAll(".oitavo > div")
 
 function desmarcar(tecla){
@@ -97,4 +96,86 @@ function somRe() {
                           
                           }
                           
-                          
+document.addEventListener('keydown', e => {
+  
+  switch (e.key) {
+    case 'z':
+      somSi()
+    break;
+ 
+  }
+  switch (e.key) {
+    case 'x':
+      somLa()
+    break;
+ 
+  }
+
+  switch (e.key) {
+    case 'c':
+      somFa()
+    break;
+ 
+  }
+
+  switch (e.key) {
+    case 'v':
+      somRe()
+    break;
+  }
+  switch (e.key) {
+    case 'b':
+      somSol()
+    break;
+  }
+  switch (e.key) {
+    case 'n':
+      somSol()
+    break;
+  }
+
+  switch (e.key) {
+    case 'm':
+      somMi()
+    break;
+  }
+  switch (e.key) {
+    case 'a':
+      somDoagudo()
+    break;
+  }
+  switch (e.key) {
+    case 's':
+      somDo()
+    break;
+  }
+  switch (e.key) {
+    case 'd':
+      somDo()
+    break;
+  }
+  switch (e.key) {
+    case 'f':
+      somMiagudo()
+    break;
+    }
+    switch (e.key) {
+      case 'g':
+        somReagudo()
+      break;
+    }
+    switch (e.key) {
+      case 'h':
+        somSolagudo()
+      break;
+    }
+    switch (e.key) {
+      case 'j':
+        somFaagudo()
+      break;
+    }
+  
+  
+    //alert(e.key);
+});
+  
