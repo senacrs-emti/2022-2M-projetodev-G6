@@ -13,7 +13,8 @@
 <h1> Piano virtual</h1>
 <p>Toque nas teclas para tocar uma melodia e quem sabe descubre uma música secreta.</p>
   
-
+<h2>botões do teclado</h2>
+<h3>z,x,c,v,b,n,m,a,s,d,f,g,h,j,k.</h3>
   
 <div class= "teclado" >
      <div class="oitavo" ot1>
@@ -21,6 +22,7 @@
  
      
      <div class="branca-key"   id="C" onclick="somSi();"> </div>
+     
       <div class="preta-key" cs  id="do"   onclick="somDo();"></div>
       <div class="branca-key" id="d"onclick="somLa();" ></div>
       <div class="preta-key" ds id="re"onclick="somRe();"></div>
@@ -53,20 +55,28 @@
        <div class="branca-key "id="b" onclick="somReagudo();"></div>
    </div>  
    </div>
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/2lMMbSPH58s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+
    <button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
 
 <script>
 function myFunction() {
-  alert("Hello! I am an alert box!");
+  let texto = prompt("desbloqueou uma música");
+  if (texto != null) {
+    document.getElementById("primeiro").innerHTML =
+    "primeiro " + texto ;
 
+    alert.getElementByID("primeiro");
+  }
 }
-
 </script>
- 
-  
-  <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
-</video>
+<iframe width="560" id="primeiro" height="315" src="https://www.youtube.com/embed/fJ9rUzIMcZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" id="segundo" height="315" src="https://www.youtube.com/embed/ZHwVBirqD2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
