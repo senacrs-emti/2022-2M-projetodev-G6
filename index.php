@@ -11,11 +11,11 @@
 
 <body>
 <h1> Piano virtual</h1>
-<p>Toque nas teclas para tocar uma melodia e quem sabe descubre uma música secreta.</p>
+<p>Toque nas teclas para tocar uma melodia e quem sabe, descubre duas músicas secretas.</p>
   
-<h2>botões do teclado</h2>
-<h3>z,x,c,v,b,n,m,a,s,d,f,g,h,j,k.</h3>
-  
+<p>botões do teclado</p>
+<h3> a  s  d  f  g  h  j  k</h3>
+<h2>z x  c  v  b  n  m</h2>  
 <div class= "teclado" >
      <div class="oitavo" ot1>
    

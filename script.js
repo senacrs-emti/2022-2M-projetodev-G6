@@ -99,78 +99,78 @@ audio.play();
 document.addEventListener('keydown', e => {
   
   switch (e.key) {
-    case 'z':
+    case 'a':
       somSi()
     break;
  
   }
   switch (e.key) {
-    case 'x':
+    case 's':
       somLa()
     break;
  
   }
 
   switch (e.key) {
-    case 'c':
+    case 'd':
       somFa()
     break;
  
   }
 
   switch (e.key) {
-    case 'v':
+    case 'f':
       somRe()
     break;
   }
   switch (e.key) {
-    case 'b':
+    case 'g':
       somSol()
     break;
   }
   switch (e.key) {
-    case 'n':
+    case 'h':
       somLa()
     break;
   }
 
   switch (e.key) {
-    case 'm':
+    case 'j':
       somMi()
     break;
   }
   switch (e.key) {
-    case 'a':
+    case 'z':
       somDoagudo()
     break;
   }
   switch (e.key) {
-    case 's':
+    case 'x':
       somDo()
     break;
   }
   switch (e.key) {
-    case 'd':
+    case 'c':
       somSiagudo()
     break;
   }
   switch (e.key) {
-    case 'f':
+    case 'v':
       somMiagudo()
     break;
     }
     switch (e.key) {
-      case 'g':
+      case 'b':
         somReagudo()
       break;
     }
     switch (e.key) {
-      case 'h':
+      case 'n':
         somSolagudo()
       break;
     }
     switch (e.key) {
-      case 'j':
+      case 'm':
         somFaagudo()
       break;
     }
