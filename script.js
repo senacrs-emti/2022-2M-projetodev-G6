@@ -101,7 +101,8 @@ document.addEventListener('keydown', e => {
   switch (e.key) {
     case 'a':
       somSi()
-    break;
+      break;
+      
  
   }
   switch (e.key) {

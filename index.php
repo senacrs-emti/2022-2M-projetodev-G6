@@ -11,8 +11,7 @@
 
 <body>
 <h1> Piano virtual</h1>
-<p>Toque nas teclas para tocar uma melodia e quem sabe, descubre duas músicas secretas.</p>
-  
+
 <p>botões do teclado</p>
 <h3> a  s  d  f  g  h  j  k</h3>
 <h2>z x  c  v  b  n  m</h2>  
@@ -55,27 +54,13 @@
        <div class="branca-key "id="b" onclick="somReagudo();"></div>
    </div>  
    </div>
- 
+   
+   <p>Músicas que pode ser feitas no piano:</p>
+  
+<br>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/e838BE_MH6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-   <button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  let texto = prompt("desbloqueou uma música");
-  if (texto != null) {
-    document.getElementById("primeiro").innerHTML =
-    "primeiro " + texto ;
-
-    alert.getElementByID("primeiro");
-  }
-}
-</script>
-<iframe width="560" id="primeiro" height="315" src="https://www.youtube.com/embed/fJ9rUzIMcZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe width="560" id="segundo" height="315" src="https://www.youtube.com/embed/ZHwVBirqD2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aqVscO_FPZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
