@@ -100,28 +100,28 @@ document.addEventListener('keydown', e => {
   
   switch (e.key) {
     case 'a':
-      somSi()
+      somDo()
       break;
       
  
   }
   switch (e.key) {
     case 's':
-      somLa()
+      somRe()
     break;
  
   }
 
   switch (e.key) {
     case 'd':
-      somFa()
+      somMi()
     break;
  
   }
 
   switch (e.key) {
     case 'f':
-      somRe()
+      somFa()
     break;
   }
   switch (e.key) {
@@ -137,7 +137,7 @@ document.addEventListener('keydown', e => {
 
   switch (e.key) {
     case 'j':
-      somMi()
+      somSi()
     break;
   }
   switch (e.key) {
@@ -147,39 +147,35 @@ document.addEventListener('keydown', e => {
   }
   switch (e.key) {
     case 'x':
-      somDo()
+      somReagudo()
     break;
   }
   switch (e.key) {
     case 'c':
-      somSiagudo()
+      somMiagudo()
     break;
   }
   switch (e.key) {
     case 'v':
-      somMiagudo()
+      somFaagudo()
     break;
     }
     switch (e.key) {
       case 'b':
-        somReagudo()
-      break;
-    }
-    switch (e.key) {
-      case 'n':
         somSolagudo()
       break;
     }
     switch (e.key) {
-      case 'm':
-        somFaagudo()
-      break;
-    }
-    switch (e.key) {
-      case 'k':
+      case 'n':
         somLaagudo()
       break;
     }
+    switch (e.key) {
+      case 'm':
+        somSiagudo()
+      break;
+    }
+    
   
     //alert(e.key);
 

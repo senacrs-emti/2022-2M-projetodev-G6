@@ -26,13 +26,13 @@
       <div class="branca-key" id="d"onclick="somLa();" ></div>
       <div class="preta-key" ds id="re"onclick="somRe();"></div>
       <div class="branca-key"id="e"onclick="somFa();"></div>
-      <div class="branca-key" id="f" onclick="somRe();"></div>
+      <div class="branca-key" id="f" onclick="somDoagudo();"></div>
       <div class="preta-key" fs id="mi" onclick="somMi();"></div>
       <div class="branca-key" id="g" onclick="somSol();"></div>
-      <div class="preta-key" gs id="sol"onclick="somSol();"></div>
+      <div class="preta-key" gs id="sol"onclick="somSi();"></div>
       <div class="branca-key" id="a"onclick="somMi();"></div>
       <div class="preta-key"as id="la" onclick="somLa();"></div>
-      <div class="branca-key "id="b"onclick="somDoagudo();"></div>
+      <div class="branca-key "id="b"onclick="somRe();"></div>
   </div> 
   
 
