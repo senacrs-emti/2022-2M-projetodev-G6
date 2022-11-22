@@ -14,7 +14,7 @@
 
 <p>botões do teclado</p>
 <h3> a  s  d  f  g  h  j  k</h3>
-<h2>z x  c  v  b  n  m</h2>  
+<h2>z  x  c  v  b  n  m</h2>  
 <div class= "teclado" >
      <div class="oitavo" ot1>
    
@@ -25,14 +25,14 @@
       <div class="preta-key" cs  id="do"   onclick="somDo();"></div>
       <div class="branca-key" id="d"onclick="somLa();" ></div>
       <div class="preta-key" ds id="re"onclick="somRe();"></div>
-      <div class="branca-key"id="e"onclick="somFa();"></div>
+      <div class="branca-key"id="e" onclick="somFa();"></div>
       <div class="branca-key" id="f" onclick="somDoagudo();"></div>
       <div class="preta-key" fs id="mi" onclick="somMi();"></div>
-      <div class="branca-key" id="g" onclick="somSol();"></div>
-      <div class="preta-key" gs id="sol"onclick="somSi();"></div>
-      <div class="branca-key" id="a"onclick="somMi();"></div>
-      <div class="preta-key"as id="la" onclick="somLa();"></div>
-      <div class="branca-key "id="b"onclick="somRe();"></div>
+      <div class="branca-key" id="t" onclick="somSol();"></div>
+      <div class="preta-key" gs id="sol" onclick="somSi();"></div>
+      <div class="branca-key" id="a" onclick="somMi();"></div>
+     
+      <div class="branca-key "id="b" onclick="somRe();"></div>
   </div> 
   
 
@@ -44,13 +44,13 @@
        <div class="preta-key" cs id="da" onclick="somDoagudo();"></div>
        <div class="branca-key" id="d" onclick="somDo();"></div>
        <div class="preta-key"  ds id="de"onclick="somReagudo();"></div>
-       <div class="branca-key" id="e"onclick="somFaagudo();"></div>
-       <div class="branca-key" id="f"onclick="somSolagudo();"></div>
-       <div class="preta-key"  fs id="di"onclick="somMiagudo();"></div>
-       <div class="branca-key" id="g"onclick="somLaagudo();"></div>
-       <div class="preta-key"  gs  id="do"onclick="somSolagudo();"></div>
+       <div class="branca-key" id="e" onclick="somFaagudo();"></div>
+       <div class="branca-key" id="f" onclick="somSolagudo();"></div>
+       <div class="preta-key"  fs id="di" onclick="somMiagudo();"></div>
+       <div class="branca-key" id="g" onclick="somLaagudo();"></div>
+       <div class="preta-key"  gs  id="di" onclick="somSolagudo();"></div>
        <div class="branca-key" id="a" onclick="somSiagudo();"></div>
-       <div class="preta-key"as id="du"onclick="somLaagudo();"></div>
+       <div class="preta-key"as id="du" onclick="somLaagudo();"></div>
        <div class="branca-key "id="b" onclick="somReagudo();"></div>
    </div>  
    </div>

@@ -17,83 +17,154 @@ tecla.onmouseleave = () => desmarcar(tecla)
 })
 
 function somDo() {
-var audio = new Audio('./audios piano/do.mp3');
-audio.play();
+  // descobre o elemento
+  var element = document.getElementById("do");
+  // adiciona a classe
+  element.className = "preta-key selecionada";  
+  // identifica o audio
+  var audio = new Audio('./audios piano/do.mp3');
+  // toca o audio
+  audio.play();
+  setTimeout(() => {
+    element.className = "preta-key";  
+  }, "200")
+  
 
+  //element.className = "preta-key";
 }
 
 function somRe() {
-var audio = new Audio('./audios piano/re.mp3');
-audio.play();
-  
+  var element = document.getElementById("re");
+  element.className = "preta-key selecionada";  
+  var audio = new Audio('./audios piano/re.mp3');
+  audio.play();
+  // remove a classe selecionada
+  setTimeout(() => {
+    element.className = "preta-key";  
+  }, "200")
+    
   }
 function somMi() {
+  var element = document.getElementById("b");
+  element.className = "branca-key selecionada";  
 var audio = new Audio('./audios piano/mi.mp3');
 audio.play();
-    
+setTimeout(() => {
+  element.className = "branca-key";  
+}, "200")
+  
     }
 
 function somFa() {
+  var element = document.getElementById("e");
+  element.className = "branca-key selecionada";  
 var audio = new Audio('./audios piano/fa.mp3');
  audio.play();
+ setTimeout(() => {
+  element.className = "branca-key";  
+}, "200")
       
       }
 
 function somSol() {
+  var element = document.getElementById("t");
+  element.className = "branca-key selecionada";  
 var audio = new Audio('./audios piano/sol.mp3');
 audio.play();
-        
+setTimeout(() => {
+  element.className = "branca-key";  
+}, "200")
         }
 
 function somLa() {
+  var element = document.getElementById("la");
+  element.className = "preta-key selecionada";  
 var audio = new Audio('./audios piano/la.mp3');
  audio.play();
+ setTimeout(() => {
+  element.className = "preta-key";  
+}, "200")
           
           }
 
 function somSi() {
+  var element = document.getElementById("sol");
+  element.className = "preta-key selecionada";  
 var audio = new Audio('./audios piano/si.mp3');
 audio.play();
-            
+setTimeout(() => {
+  element.className = "preta-key";  
+}, "200")
             }
 
 function somDoagudo() {
+  var element = document.getElementById("da");
+  element.className = "branca-key selecionada";  
 var audio = new Audio('./audios piano/do-agudo.mp3');
 audio.play();
-              
+setTimeout(() => {
+  element.className = "branca-key";  
+}, "200")
               }
               
 function somMiagudo() {
+  var element = document.getElementById("f");
+  element.className = "preta-key selecionada";  
  var audio = new Audio('./audios piano/mi-agudo.mp3');
  audio.play();
+ setTimeout(() => {
+  element.className = "preta-key";  
+}, "200")
                 
 }
 
 function somFaagudo() {
+  var element = document.getElementById("e");
+  element.className = "preta-key selecionada";  
  var audio = new Audio('./audios piano/fa-agudo.mp3');
   audio.play();
+  setTimeout(() => {
+    element.className = "preta-key";  
+  }, "200")
                   
  }
 
 function somSolagudo() {
+  var element = document.getElementById("di");
+  element.className = "branca-key selecionada";  
 var audio = new Audio('./audios piano/sol-agudo.mp3');
 audio.play();
-                    
+setTimeout(() => {
+  element.className = "branca-key";  
+}, "200")
 }
 function somLaagudo() {
+  var element = document.getElementById("g");
+  element.className = "branca-key selecionada";  
  var audio = new Audio('./audios piano/la-agudo.mp3');
   audio.play();
-                      
+  setTimeout(() => {
+    element.className = "branca-key";  
+  }, "200")             
 }
 function somSiagudo() {
+  var element = document.getElementById("a");
+  element.className = "preta-key selecionada";  
 var audio = new Audio('./audios piano/si-agudo.mp3');
 audio.play();
+setTimeout(() => {
+  element.className = "preta-key";  
+}, "200")
                         
 }
 function somReagudo() {
+  var element = document.getElementById("b");
+  element.className = "branca-key selecionada";  
 var audio = new Audio('./audios piano/re-agudo.mp3');
 audio.play();
-                          
+setTimeout(() => {
+  element.className = "branca-key";  
+}, "200")
 }
                           
 document.addEventListener('keydown', e => {
@@ -102,82 +173,44 @@ document.addEventListener('keydown', e => {
     case 'a':
       somDo()
       break;
-      
- 
-  }
-  switch (e.key) {
     case 's':
       somRe()
     break;
- 
-  }
-
-  switch (e.key) {
     case 'd':
       somMi()
-    break;
- 
-  }
-
-  switch (e.key) {
     case 'f':
       somFa()
     break;
-  }
-  switch (e.key) {
     case 'g':
       somSol()
-    break;
-  }
-  switch (e.key) {
     case 'h':
       somLa()
     break;
-  }
-
-  switch (e.key) {
     case 'j':
       somSi()
     break;
-  }
-  switch (e.key) {
     case 'z':
       somDoagudo()
     break;
-  }
-  switch (e.key) {
     case 'x':
       somReagudo()
     break;
-  }
-  switch (e.key) {
     case 'c':
       somMiagudo()
     break;
-  }
-  switch (e.key) {
     case 'v':
       somFaagudo()
     break;
-    }
-    switch (e.key) {
       case 'b':
         somSolagudo()
       break;
-    }
-    switch (e.key) {
       case 'n':
         somLaagudo()
       break;
-    }
-    switch (e.key) {
       case 'm':
         somSiagudo()
       break;
     }
-    
-  
-    //alert(e.key);
 
   });
  
