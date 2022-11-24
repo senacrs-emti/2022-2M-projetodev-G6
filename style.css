@@ -51,7 +51,11 @@ height: 160px;
     left:235px;
 }
 [as] {
-    left:285px;
+    left:275px;
+
+}
+[vu]{
+left:277px;
 }
 
 .selecionada {

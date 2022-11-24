@@ -29,21 +29,29 @@
       <div class="branca-key" id="teste-f"  onclick="somDoagudo();"></div>
       <div class="preta-key" fs id="teste-mi" onclick="somMi();"></div>
       <div class="branca-key" id="teste-t" onclick="somSol();"></div>
-      <div class="preta-key" gs id="teste-sol" onclick="somSi();"></div>
-      <div class="branca-key" id="a" onclick="somRe();"></div>
-     
-      <div class="branca-key "id="teste-b"  onclick="somSolagudo();"></div>
+      <div class="preta-key" gs id="teste-sol" onclick="somLagudo();"></div>
+      <div class="branca-key"  id="teste-a" onclick="somRe();"></div>
+     <div class="preta-key" vu id="teste-b"  onclick="somSolagudo();"></div>
+     <div class="branca-key" id="teste-fa"  onclick="somReagudo();"> </div>
+       
   </div> 
-  
+  <div class="oitavo" ot2>
+      
+      <div class="branca-key" id="teste-rf"  onclick="somFaagudo();"> </div>
+       <div class="preta-key" cs id="teste-du" onclick="somMiagudo();"></div>
+       <div class="branca-key" id="d" onclick="somDo();"></div>
+       
+       <div class="preta-key"  ds id="de"onclick="somReagudo();"></div>
+       <div class="branca-key" id="e"onclick="somFaagudo();"></div>
+      
+   </div>  
+      
+       
+
+     
    </div>
    
-   <p>Músicas que pode ser feitas no piano:</p>
-  
-<br>
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/e838BE_MH6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/aqVscO_FPZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+   
 
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
