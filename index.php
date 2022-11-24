@@ -20,39 +20,21 @@
    
  
      
-     <div class="branca-key"   id="C" onclick="somSi();"> </div>
+     <div class="branca-key"   id="teste-C" onclick="somSi();"> </div>
      
-      <div class="preta-key" cs  id="do"   onclick="somDo();"></div>
-      <div class="branca-key" id="d"onclick="somLa();" ></div>
-      <div class="preta-key" ds id="re"onclick="somRe();"></div>
-      <div class="branca-key"id="e" onclick="somFa();"></div>
-      <div class="branca-key" id="f" onclick="somDoagudo();"></div>
-      <div class="preta-key" fs id="mi" onclick="somMi();"></div>
-      <div class="branca-key" id="t" onclick="somSol();"></div>
-      <div class="preta-key" gs id="sol" onclick="somSi();"></div>
-      <div class="branca-key" id="a" onclick="somMi();"></div>
+      <div class="preta-key" cs  id="teste-do"   onclick="somDo();"></div>
+      <div class="branca-key" id="teste-d" onclick="somLa();" ></div>
+      <div class="preta-key" ds id="teste-re"onclick="somRe();"></div>
+      <div class="branca-key" id="teste-e" onclick="somFa();"></div>
+      <div class="branca-key" id="teste-f"  onclick="somDoagudo();"></div>
+      <div class="preta-key" fs id="teste-mi" onclick="somMi();"></div>
+      <div class="branca-key" id="teste-t" onclick="somSol();"></div>
+      <div class="preta-key" gs id="teste-sol" onclick="somSi();"></div>
+      <div class="branca-key" id="a" onclick="somRe();"></div>
      
-      <div class="branca-key "id="b" onclick="somRe();"></div>
+      <div class="branca-key "id="teste-b"  onclick="somSolagudo();"></div>
   </div> 
   
-
-
-
-  <div class="oitavo" ot2>
-      
-      <div class="branca-key" id="f"  onclick="somMiagudo();"> </div>
-       <div class="preta-key" cs id="da" onclick="somDoagudo();"></div>
-       <div class="branca-key" id="d" onclick="somDo();"></div>
-       <div class="preta-key"  ds id="de"onclick="somReagudo();"></div>
-       <div class="branca-key" id="e" onclick="somFaagudo();"></div>
-       <div class="branca-key" id="f" onclick="somSolagudo();"></div>
-       <div class="preta-key"  fs id="di" onclick="somMiagudo();"></div>
-       <div class="branca-key" id="g" onclick="somLaagudo();"></div>
-       <div class="preta-key"  gs  id="di" onclick="somSolagudo();"></div>
-       <div class="branca-key" id="a" onclick="somSiagudo();"></div>
-       <div class="preta-key"as id="du" onclick="somLaagudo();"></div>
-       <div class="branca-key "id="b" onclick="somReagudo();"></div>
-   </div>  
    </div>
    
    <p>Músicas que pode ser feitas no piano:</p>
