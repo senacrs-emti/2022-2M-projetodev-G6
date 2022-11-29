@@ -24,7 +24,7 @@
      
       <div class="preta-key" cs  id="teste-do"   onclick="somDo();"></div>
       <div class="branca-key" id="teste-d" onclick="somLa();" ></div>
-      <div class="preta-key" ds id="teste-re"onclick="somRe();"></div>
+      <div class="preta-key" ds id="teste-re"onclick="somRe1();"></div>
       <div class="branca-key" id="teste-e" onclick="somFa();"></div>
       <div class="branca-key" id="teste-f"  onclick="somDoagudo();"></div>
       <div class="preta-key" fs id="teste-mi" onclick="somMi();"></div>
@@ -32,17 +32,17 @@
       <div class="preta-key" gs id="teste-sol" onclick="somLagudo();"></div>
       <div class="branca-key"  id="teste-a" onclick="somRe();"></div>
      <div class="preta-key" vu id="teste-b"  onclick="somSolagudo();"></div>
-     <div class="branca-key" id="teste-fa"  onclick="somReagudo();"> </div>
+     <div class="branca-key" id="teste-fa"  onclick="somSiagudo();"> </div>
        
   </div> 
   <div class="oitavo" ot2>
       
       <div class="branca-key" id="teste-rf"  onclick="somFaagudo();"> </div>
        <div class="preta-key" cs id="teste-du" onclick="somMiagudo();"></div>
-       <div class="branca-key" id="d" onclick="somDo();"></div>
+       <div class="branca-key" id="teste-dr" onclick="somDo2();"></div>
        
-       <div class="preta-key"  ds id="de"onclick="somReagudo();"></div>
-       <div class="branca-key" id="e"onclick="somFaagudo();"></div>
+       <div class="preta-key"  ds id="teste-pi"onclick="somReagudo();"></div>
+       <div class="branca-key" id="teste-o"onclick="somFaagudo4();"></div>
       
    </div>  
       
