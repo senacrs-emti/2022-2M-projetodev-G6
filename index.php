@@ -13,16 +13,15 @@
 <h1> Piano virtual</h1>
 
 <p>botões do teclado</p>
-<h3> a  s  d  f  g  h  j  k</h3>
+<h3> a  s  d  f  g  h  j  k l ç</h3>
 <h2>z  x  c  v  b  n  m</h2>  
 <div class= "teclado" >
      <div class="oitavo" ot1>
    
  
      
-     <div class="branca-key"   id="teste-C" onclick="somSi();"> </div>
-     
-      <div class="preta-key" cs  id="teste-do"   onclick="somDo();"></div>
+     <div class="branca-key"   id="teste-Ca" onclick="somSi();"> </div>
+     <div class="preta-key" cs  id="teste-do"   onclick="somDo();"></div>
       <div class="branca-key" id="teste-d" onclick="somLa();" ></div>
       <div class="preta-key" ds id="teste-re"onclick="somRe1();"></div>
       <div class="branca-key" id="teste-e" onclick="somFa();"></div>

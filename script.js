@@ -16,6 +16,19 @@ tecla.onmouseup = () => desmarcar (tecla)
 tecla.onmouseleave = () => desmarcar(tecla)
 })
 
+function somSi() {
+  // descobre o elemento
+  var element = document.getElementById("teste-Ca");
+  // adiciona a classe
+  element.className = "branca-key selecionada";  
+  // identifica o audio
+  var audio = new Audio('./audios piano/si.mp3');
+  // toca o audio
+  audio.play();
+  setTimeout(() => {
+    element.className = "branca-key";  
+  }, "200")
+}
 function somDo() {
   // descobre o elemento
   var element = document.getElementById("teste-do");
@@ -253,71 +266,61 @@ function somDo() {
       }, "200")
 
     }
-    function somSi() {
-      // descobre o elemento
-      var element = document.getElementById("teste-c");
-      // adiciona a classe
-      element.className = "branca-key selecionada";  
-      // identifica o audio
-      var audio = new Audio('./audios piano/si.mp3');
-      // toca o audio
-      audio.play();
-      setTimeout(() => {
-        element.className = "branca-key";  
-      }, "200")
-    
     
 
-  }           
+          
 document.addEventListener('keydown', e => {
   
   switch (e.key) {
     case 'z':
+      somSi()
+      break;
+    case 'x':
       somDo()
       break;
-      case 'x':
+      case 'c':
       somLa()
       break;
-      case 'c':
+      case 'v':
       somRe1()
       break;
-      case 'v':
+      case 'b':
       somFa()
       break;
-      case 'b':
+      case 'n':
       somDoagudo()
       break;
-      case 'n':
+      case 'm':
       somMi()
       break;
-      case 'm':
+      case 'a':
       somSol()
       break;
-      case 'a':
+      case 's':
       somLagudo()
       break;
-      case 's':
+      case 'd':
       somRe()
       break;
-      case 'd':
+      case 'f':
       somSolagudo()
       break;
-      case 'f':
+      case 'g':
       somSiagudo()
       break;
-      case 'g':
+      case 'h':
       somFaagudo()
       break;
-      case 'h':
+      case 'j':
       somMiagudo()
       break;
-      case 'j':
+      case 'k':
       somDo2()
       break;
-      case 'k':
+      case 'l':
       somReagudo()
       break;
-      case 'l':
+      case 'ç':
         somFaagudo4()
         break;
         
